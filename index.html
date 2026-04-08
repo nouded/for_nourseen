@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love ❤️</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      overflow: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      text-align: center;
+      max-width: 600px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      color: #ff4d6d;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #444;
+      line-height: 1.7;
+    }
+
+    .heart {
+      font-size: 4rem;
+      animation: pulse 1.2s infinite;
+      display: inline-block;
+      margin: 15px 0;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>To My Love nourseen 💖</h1>
+    <div class="heart">❤️</div>
+    <p>
+      I just wanted to make this little page for you to remind you how much I love you.<br><br>
+      You make my days brighter, my smile bigger, and my heart happier every single day.
+      Thank you for being in my life. 🌷
+    </p>
+  </div>
+</body>
+</html>
